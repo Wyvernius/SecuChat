@@ -1,0 +1,872 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ChatTab.Appearance" type="System.Windows.Forms.TabAppearance, System.Windows.Forms">
+    <value>FlatButtons</value>
+  </data>
+  <data name="&gt;&gt;testbutton.Name" xml:space="preserve">
+    <value>testbutton</value>
+  </data>
+  <data name="&gt;&gt;testbutton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;testbutton.Parent" xml:space="preserve">
+    <value>ChatPage</value>
+  </data>
+  <data name="&gt;&gt;testbutton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ClientListview.Name" xml:space="preserve">
+    <value>ClientListview</value>
+  </data>
+  <data name="&gt;&gt;ClientListview.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TreeView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ClientListview.Parent" xml:space="preserve">
+    <value>ChatPage</value>
+  </data>
+  <data name="&gt;&gt;ClientListview.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;UserInputTxtBx.Name" xml:space="preserve">
+    <value>UserInputTxtBx</value>
+  </data>
+  <data name="&gt;&gt;UserInputTxtBx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UserInputTxtBx.Parent" xml:space="preserve">
+    <value>ChatPage</value>
+  </data>
+  <data name="&gt;&gt;UserInputTxtBx.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;FileSendProgBar.Name" xml:space="preserve">
+    <value>FileSendProgBar</value>
+  </data>
+  <data name="&gt;&gt;FileSendProgBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FileSendProgBar.Parent" xml:space="preserve">
+    <value>ChatPage</value>
+  </data>
+  <data name="&gt;&gt;FileSendProgBar.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;ServerStatus.Name" xml:space="preserve">
+    <value>ServerStatus</value>
+  </data>
+  <data name="&gt;&gt;ServerStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ServerStatus.Parent" xml:space="preserve">
+    <value>ChatPage</value>
+  </data>
+  <data name="&gt;&gt;ServerStatus.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;ChatbufferTab.Name" xml:space="preserve">
+    <value>ChatbufferTab</value>
+  </data>
+  <data name="&gt;&gt;ChatbufferTab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ChatbufferTab.Parent" xml:space="preserve">
+    <value>ChatPage</value>
+  </data>
+  <data name="&gt;&gt;ChatbufferTab.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;SendFileButton.Name" xml:space="preserve">
+    <value>SendFileButton</value>
+  </data>
+  <data name="&gt;&gt;SendFileButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SendFileButton.Parent" xml:space="preserve">
+    <value>ChatPage</value>
+  </data>
+  <data name="&gt;&gt;SendFileButton.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ChatPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 28</value>
+  </data>
+  <data name="ChatPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="ChatPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="ChatPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1180, 563</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ChatPage.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ChatPage.Text" xml:space="preserve">
+    <value>Chat</value>
+  </data>
+  <data name="&gt;&gt;ChatPage.Name" xml:space="preserve">
+    <value>ChatPage</value>
+  </data>
+  <data name="&gt;&gt;ChatPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ChatPage.Parent" xml:space="preserve">
+    <value>ChatTab</value>
+  </data>
+  <data name="&gt;&gt;ChatPage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;LockSettingsChkBX.Name" xml:space="preserve">
+    <value>LockSettingsChkBX</value>
+  </data>
+  <data name="&gt;&gt;LockSettingsChkBX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LockSettingsChkBX.Parent" xml:space="preserve">
+    <value>SettingsPage</value>
+  </data>
+  <data name="&gt;&gt;LockSettingsChkBX.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;SettingsSaveButton.Name" xml:space="preserve">
+    <value>SettingsSaveButton</value>
+  </data>
+  <data name="&gt;&gt;SettingsSaveButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SettingsSaveButton.Parent" xml:space="preserve">
+    <value>SettingsPage</value>
+  </data>
+  <data name="&gt;&gt;SettingsSaveButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>SettingsPage</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>SettingsPage</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;SettingGroupTxtbx.Name" xml:space="preserve">
+    <value>SettingGroupTxtbx</value>
+  </data>
+  <data name="&gt;&gt;SettingGroupTxtbx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SettingGroupTxtbx.Parent" xml:space="preserve">
+    <value>SettingsPage</value>
+  </data>
+  <data name="&gt;&gt;SettingGroupTxtbx.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;settingNameTxtbx.Name" xml:space="preserve">
+    <value>settingNameTxtbx</value>
+  </data>
+  <data name="&gt;&gt;settingNameTxtbx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;settingNameTxtbx.Parent" xml:space="preserve">
+    <value>SettingsPage</value>
+  </data>
+  <data name="&gt;&gt;settingNameTxtbx.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="SettingsPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 28</value>
+  </data>
+  <data name="SettingsPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="SettingsPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="SettingsPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1180, 563</value>
+  </data>
+  <data name="SettingsPage.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="SettingsPage.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="&gt;&gt;SettingsPage.Name" xml:space="preserve">
+    <value>SettingsPage</value>
+  </data>
+  <data name="&gt;&gt;SettingsPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SettingsPage.Parent" xml:space="preserve">
+    <value>ChatTab</value>
+  </data>
+  <data name="&gt;&gt;SettingsPage.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ChatTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 2</value>
+  </data>
+  <data name="ChatTab.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="ChatTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1188, 595</value>
+  </data>
+  <data name="ChatTab.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ChatTab.Name" xml:space="preserve">
+    <value>ChatTab</value>
+  </data>
+  <data name="&gt;&gt;ChatTab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ChatTab.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ChatTab.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="testbutton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1114, 448</value>
+  </data>
+  <data name="testbutton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 23</value>
+  </data>
+  <data name="testbutton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="testbutton.Text" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="testbutton.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;testbutton.Name" xml:space="preserve">
+    <value>testbutton</value>
+  </data>
+  <data name="&gt;&gt;testbutton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;testbutton.Parent" xml:space="preserve">
+    <value>ChatPage</value>
+  </data>
+  <data name="&gt;&gt;testbutton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ClientListview.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ClientListview.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="ClientListview.Nodes" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB1TeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5UcmVlTm9kZQwAAAAEVGV4dAtUb29sVGlwVGV4dAROYW1lCUlzQ2hlY2tl
+        ZApJbWFnZUluZGV4CEltYWdlS2V5ElNlbGVjdGVkSW1hZ2VJbmRleBBTZWxlY3RlZEltYWdlS2V5D1N0
+        YXRlSW1hZ2VJbmRleA1TdGF0ZUltYWdlS2V5CkNoaWxkQ291bnQIVXNlckRhdGEBAQEAAAEAAQABAAEB
+        CAgICAIAAAAGAwAAAAdDbGllbnRzBgQAAAAABgUAAAAHQ2xpZW50cwD/////CQQAAAD/////CQQAAAD/
+        ////CQQAAAAAAAAABgcAAAAJU2VwZXJhdG9yCw==
+</value>
+  </data>
+  <data name="ClientListview.Nodes1" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB1TeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5UcmVlTm9kZQwAAAAEVGV4dAtUb29sVGlwVGV4dAROYW1lCUlzQ2hlY2tl
+        ZApJbWFnZUluZGV4CEltYWdlS2V5ElNlbGVjdGVkSW1hZ2VJbmRleBBTZWxlY3RlZEltYWdlS2V5D1N0
+        YXRlSW1hZ2VJbmRleA1TdGF0ZUltYWdlS2V5CkNoaWxkQ291bnQIVXNlckRhdGEBAQEAAAEAAQABAAEB
+        CAgICAIAAAAGAwAAAAZHcm91cHMGBAAAAAAGBQAAAAZHcm91cHMA/////wkEAAAA/////wkEAAAA////
+        /wkEAAAAAAAAAAYHAAAACVNlcGVyYXRvcgs=
+</value>
+  </data>
+  <data name="ClientListview.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 442</value>
+  </data>
+  <metadata name="OnOfflineImages.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>282, 12</value>
+  </metadata>
+  <data name="OnOfflineImages.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAD+
+        DwAAAk1TRnQBSQFMAgEBBQEAARgBAQEYAQEBEAEAARABAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAFA
+        AwABIAMAAQEBAAEgBgABIBIAQP/AAED/wABA/8AACP8D/gH/A48B/wHoAaIBAAH/A48B/wOPAf8DjwH/
+        A48B/wOPAf8DjwH/A48B/wOlDf/AAAj/AegBogEAAf8B6AGiAQAB/wHoAaIBAAH/AegBogEAAf8B6AGi
+        AQAB/wHoAaIBAAH/AegBogEAAf8B6AGiAQAB/wHoAaIBAAH/AegBogEAAf8B6AGiAQAN/8AACP8B6AGi
+        AQAB/wHoAaIBAAH/AegBogEAAf8B6AGiAQAB/wHoAaIBAAH/AegBogEAAf8B6AGiAQAB/wHoAaIBAAH/
+        AegBogEAAf8B6AGiAQAB/wHoAaIBAA3/wAAI/wHoAaIBAAH/AegBogEAAf8B6AGiAQAB/wHoAaIBAAH/
+        AegBogEAAf8B6AGiAQAB/wHoAaIBAAH/AegBogEAAf8B6AGiAQAB/wHoAaIBAAH/AegBogEADf/AAAj/
+        AegBogEAAf8B6AGiAQAJ/wHoAaIBAAn/AegBogEABf8B6AGiAQAB/wHoAaIBAA3/wAAI/wHoAaIBAAH/
+        AegBogEAAf8B6AGiAQAB/wHoAaIBAAH/AegBogEAAf8B6AGiAQAB/wHoAaIBAAH/AegBogEAAf8B6AGi
+        AQAB/wHoAaIBAAH/AegBogEADf/AAAj/AegBogEAAf8B6AGiAQAB/wHoAaIBAAH/AegBogEAAf8B6AGi
+        AQAB/wHoAaIBAAH/AegBogEAAf8B6AGiAQAB/wHoAaIBAAH/AegBogEAAf8D2w3/wAAI/wHoAaIBAAH/
+        AegBogEAAf8B6AGiAQAB/wHoAaIBAAH/AegBogEAAf8B6AGiAQAB/wHoAaIBAAH/AegBogEAAf8B6AGi
+        AQAF/wHoAaIBAAH/AegBogEAAf8B6AGiAQAF/8AADP8DuwH/A7sB/wO7Af8DuwH/A7sB/wO7Af8DuwH/
+        A7sB/wF0AVEBAAn/AegBogEABf/AADD/AegBogEAAf8B6AGiAQAB/wHoAaIBAAX/wABA/8AAQP/AAED/
+        wACA/wPjAf4W/wH+Af8B/QP/Af4E/wH+A/8B/gT/Af4t/wH9Af8B/gH/Af0F/wH+mf8D4wH+FP8BnAGd
+        AcwB/wH8AfoB/gL/Af4D/wH+Av8BQAFBAZ0y/wH+A/8B/p7/A+MB/hD/Af0B/wH+Af8CAAFxAf8B+QH7
+        Af4F/wH+A/8CAAGAAf8B5wHoAfgp/wH6Af8B+wH/AT0BpAE8Af8BOAGTATYB/wH1Af8B9jH/AZQBzAFb
+        Af8B8gH4Ae85/wFcAVgB7QH/Ae8B7gH8If8D4wH+DP8B/gP/AgABZgH/AgABcQH/Ar8B3wH/AsIB3gH/
+        Af0D/wIAAXEB/wIAAYAC/wH+Iv8B/QH/Af0B/wEAAXEBAAH/AQABgwEAAf8BAAFrAQAB/wEAAXEBAAH/
+        AeEB+QHhKf8B+gH7AfkB/wEtAbEBBQH/AUwBvgErAf8B8gH3AfAx/wL5AfwB/wEGAQAB7AH/ASwBJgHt
+        Af8B8AHvAfsd/wPjAf4O/wH+Af8CAAGAAf8CAAFwAf8CAAFxAf8CAAFwAv8B/gL/AgABgAH/AgABgAL/
+        Af4i/wEAAXEBAAH/AQABgQEAAf8BAAGAAQAB/wEAAXABAAH/AQABgAEAAf8BAAGAAQAB/wH+H/8B+wH8
+        AfoB/wHBAeIBtAH/AZwB0QGFAf8BKgGxAQAB/wEqAbEBAAH/AUkBvAEnAf8BsgHcAaAB/wG2Ad8BpQH/
+        AbYB3wGlAf8BuAHeAagB/wHrAfQB5xX/AvoB/QH/AbUBsgH1Af8BhgGCAfEB/wECAQAB7QH/AQIBAAHt
+        Af8BKAEiAewB/wGhAZ4B9QH/AaUBogH3Af8BpQGiAfcB/wGpAaYB9QH/AecB5gH6Cf8D4wH+Df8B/gL/
+        AgABgAH/AgABgAH/AfsB+gH+Bf8B/QP/AgABgAH/AgABcQP/Af0O/wH+BP8B/gP/Af4B/wH+Af8B/gL/
+        Af4C/wEAAYEBAAH/AQABgAEAAf8BAAGCAQAB/wEAAWwBAAH/AQABgAEAAf8BAAGAAQAB/wH4Af8B+QP/
+        Af4D/wH+A/8B/gP/Af4N/wGUAc0BWgH/ASoBsQEAAf8BKgGxAQAB/wEqAbEBAAH/ASoBsQEAAf8BKgGx
+        AQAB/wEqAbEBAAH/ASoBsQEAAf8BKgGxAQAB/wEqAbEBAAH/AToBtgEVAf8B9wH6AfUR/wFbAVYB7wH/
+        AQIBAAHtAf8BAgEAAe0B/wECAQAB7QH/AQIBAAHtAf8BAgEAAe0B/wECAQAB7QH/AQIBAAHtAf8BAgEA
+        Ae0B/wECAQAB7QH/ARcBEAHrAf8C9QH8Bf8D4wH+BP8CvQHqAf8BvgG9AeoB/wK9AeoB/wIAAYAB/wIA
+        AYAB/wH7AfoB/gX/Af0D/wIAAYAB/wIAAYAB/wG9AbwB6gH/Ab4BvQHqAf8BvgG9AeoB/wG+Ab0B6gX/
+        Af4B/QH+Af8B/gH9Af4B/wH+Af0B/gH/AfsB/QH7Af8BAAGAAQAB/wEAAYEBAAH/AQABggEAAf8BAAFr
+        AQAB/wEAAYABAAH/AQABgAEAAf8BWgGjAVkB/wH+Af0B/gH/Af4B/QH+Af8B/gH9Af4B/wH+Af0B/g3/
+        AUkBvAEnAf8BKgGxAQAB/wEqAbEBAAH/ASoBsQEAAf8BKgGxAQAB/wEqAbEBAAH/ASoBsQEAAf8BKgGx
+        AQAB/wEqAbEBAAH/ASoBsQEAAf8BKgGxAQAB/wHaAewB0hH/ASkBIgHtAf8BAgEAAe0B/wECAQAB7QH/
+        AQIBAAHtAf8BAgEAAe0B/wECAQAB7QH/AQIBAAHtAf8BAgEAAe0B/wECAQAB7QH/AQIBAAHtAf8BAgEA
+        Ae0B/wHSAdEB9wX/A+MB/gT/AgABawH/AgABbAH/AgABbAH/AgABgAH/AgABgAH/AfsB+gH+Bf8B/QP/
+        AgABgAH/AgABgAH/AgABbAH/AgABbAH/AgABbAH/AgABbAP/Af4B/wEAAYEBAAH/AQABgQEAAf8BAAGC
+        AQAB/wEAAYEBAAH/AQABgQEAAf8BAAGAAQAB/wEAAYIBAAH/AQABawEAAf8BAAGAAQAB/wEAAYABAAH/
+        AQABgQEAAf8BAAGBAQAB/wEAAYEBAAH/AQABgQEAAf8BAAGCAQAN/wFIAbwBJgH/ATgBtgESAf8BmQHQ
+        AYIB/wEtAbEBBAH/ASoBsQEAAf8BRgG6ASMB/wEqAbEBAAH/ASoBsQEAAf8BWgHEAT0B/wFXAcIBOQH/
+        ASoBsQEAAf8B2QHsAdER/wEoASEB7QH/ARQBDQHsAf8BgwFcAfEB/wEGAQAB7AH/AQIBAAHtAf8BJQEe
+        AesB/wECAQAB7QH/AQIBAAHtAf8BPgE5Ae4B/wE6ATQB7gH/AQIBAAHtAf8B0QHQAfcF/wPjAf4M/wH9
+        A/8CAAGAAf8CAAGAAf8B+gH5Af4G/wH+Av8CAAGAAf8CAAGAAf8C/gH8Hf8C/QH+Af8BAAGAAQAB/wEA
+        AYEBAAH/AQABgwEAAf8BAAFqAQAB/wEAAYABAAH/AQABgQEAAf8BlAHDAZUd/wFIAbwBJgH/AYUBxwFH
+        Af8C/QH8Af8BQQG4AR4B/wEuAbEBBQH/AdcB6gHOAf8BLAGxAQQB/wEqAbEBAAH/AdAB5wHGAf8ByQHl
+        Ab4B/wEqAbEBAAH/AdkB7AHREf8BKAEhAe0B/wFJAUMB7gH/AvwB/gH/ASABGQHrAf8BBwEAAesB/wHP
+        Ac0B9gH/AQUBAAHrAf8BAgEAAe0B/wHHAcUB9QH/Ab4BvAH1Af8BAgEAAe0B/wHRAdAB9wX/A+MB/hD/
+        AgABcQH/AgABgAH/AdsB3AHyAf8B3gHdAfEB/wH9A/8CAAGAAf8CAAGAAf8B/Rz/Af4G/wEAAXEBAAH/
+        AQABgAEAAf8BAAGAAQAB/wEAAXEBAAH/AQABgAEAAf8BAAGAAQAB/wL+Af0d/wFIAbwBJgH/ASoBsQEA
+        Af8BNgG0AQ8B/wEqAbEBAAH/ASoBsQEAAf8BKgGxAQAB/wEqAbEBAAH/ASoBsQEAAf8BMAGzAQgB/wEv
+        AbIBBwH/ASoBsQEAAf8B2QHsAdER/wEoASEB7QH/AQIBAAHtAf8BEQEKAesB/wECAQAB7QH/AQIBAAHt
+        Af8BAgEAAe0B/wECAQAB7QH/AQIBAAHtAf8BCgECAewB/wEJAQEB7AH/AQIBAAHtAf8B0QHQAfcF/wPj
+        Af4Q/wIAAXEB/wIAAYAB/wIAAW4B/wIAAW0B/wH9Af4C/wIAAYAB/wIAAXED/wH+If8BCQFwAQkB/wEA
+        AYABAAH/AQABgQEAAf8BAAFsAQAB/wEAAYABAAH/AQABcQEAAf8D/h3/AU4BvgEtAf8BKgGxAQAB/wEq
+        AbEBAAH/ASoBsQEAAf8BKgGxAQAB/wEqAbEBAAH/ASoBsQEAAf8BKgGxAQAB/wEqAbEBAAH/ASoBsQEA
+        Af8BKgGxAQAB/wHfAe8B2BH/AS8BKAHtAf8BAgEAAe0B/wECAQAB7QH/AQIBAAHtAf8BAgEAAe0B/wEC
+        AQAB7QH/AQIBAAHtAf8BAgEAAe0B/wECAQAB7QH/AQIBAAHtAf8BAgEAAe0B/wHYAdcB+AX/A+MB/hD/
+        AdQB1QHvAf8CAAGAAf8B+gH7Af4D/wH+Af8B/QP/AgABgAH/AQkBDAFrJf8B/gP/AQABgAEAAf8BAAGD
+        AQAB/wEAAWoBAAH/AQABgQEABf8B/h//Ab8B4AGyAf8BMQGyAQkB/wEqAbEBAAH/ASoBsQEAAf8BKgGx
+        AQAB/wEqAbEBAAH/ASoBsQEAAf8BKgGxAQAB/wEqAbEBAAH/ASoBsQEAAf8BhgHGAUkB/wP+Ef8BsgGw
+        AfQB/wELAQMB6wH/AQIBAAHtAf8BAgEAAe0B/wECAQAB7QH/AQIBAAHtAf8BAgEAAe0B/wECAQAB7QH/
+        AQIBAAHtAf8BAgEAAewB/wFKAUUB7QH/A/4F/wPjAf4Q/wH+A/8CAAFvAf8B+wH6Af4J/wIAAYEu/wH+
+        Av8B9AH/AfMB/wHyAf8B8wH/Av4q/wH8Af0B/AH/AfYB+QH1Af8B9gH5AfUB/wH2AfkB9QH/AfYB+QH1
+        Af8B9gH5AfUB/wH2AfkB9QH/AfYB+QH1Af8B+QH7Afgd/wL8Af0B/wL1AfsB/wL1AfsB/wL1AfsB/wL1
+        AfsB/wL1AfsB/wL1AfsB/wL1AfsB/wL4AfwN/wPjAf4O/wH+B/8B/QH/Af4B/Qv/Af43/wL+A/8B/gf/
+        Af6R/wPjAf4Q/wH+A/8B/QP/Af4B/wH9Av8B/t7/A+MB/nz/AUIBTQE+BwABPgMAASgDAAFAAwABIAMA
+        AQEBAAEBBgABARYAA///AAIACw==
+</value>
+  </data>
+  <data name="ClientListview.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;ClientListview.Name" xml:space="preserve">
+    <value>ClientListview</value>
+  </data>
+  <data name="&gt;&gt;ClientListview.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TreeView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ClientListview.Parent" xml:space="preserve">
+    <value>ChatPage</value>
+  </data>
+  <data name="&gt;&gt;ClientListview.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="UserInputTxtBx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>188, 443</value>
+  </data>
+  <data name="UserInputTxtBx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="UserInputTxtBx.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="UserInputTxtBx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>811, 118</value>
+  </data>
+  <data name="UserInputTxtBx.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;UserInputTxtBx.Name" xml:space="preserve">
+    <value>UserInputTxtBx</value>
+  </data>
+  <data name="&gt;&gt;UserInputTxtBx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UserInputTxtBx.Parent" xml:space="preserve">
+    <value>ChatPage</value>
+  </data>
+  <data name="&gt;&gt;UserInputTxtBx.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="FileSendProgBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1006, 483</value>
+  </data>
+  <data name="FileSendProgBar.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="FileSendProgBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 29</value>
+  </data>
+  <data name="FileSendProgBar.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="FileSendProgBar.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;FileSendProgBar.Name" xml:space="preserve">
+    <value>FileSendProgBar</value>
+  </data>
+  <data name="&gt;&gt;FileSendProgBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FileSendProgBar.Parent" xml:space="preserve">
+    <value>ChatPage</value>
+  </data>
+  <data name="&gt;&gt;FileSendProgBar.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ServerStatus.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ServerStatus.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="ServerStatus.ImageIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ServerStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1007, 524</value>
+  </data>
+  <data name="ServerStatus.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="ServerStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 21</value>
+  </data>
+  <data name="ServerStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="ServerStatus.Text" xml:space="preserve">
+    <value>Server Status:       </value>
+  </data>
+  <data name="&gt;&gt;ServerStatus.Name" xml:space="preserve">
+    <value>ServerStatus</value>
+  </data>
+  <data name="&gt;&gt;ServerStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ServerStatus.Parent" xml:space="preserve">
+    <value>ChatPage</value>
+  </data>
+  <data name="&gt;&gt;ServerStatus.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ChatbufferTab.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS Reference Sans Serif, 9.75pt</value>
+  </data>
+  <data name="ChatbufferTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>188, 0</value>
+  </data>
+  <data name="ChatbufferTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>987, 442</value>
+  </data>
+  <data name="ChatbufferTab.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;ChatbufferTab.Name" xml:space="preserve">
+    <value>ChatbufferTab</value>
+  </data>
+  <data name="&gt;&gt;ChatbufferTab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ChatbufferTab.Parent" xml:space="preserve">
+    <value>ChatPage</value>
+  </data>
+  <data name="&gt;&gt;ChatbufferTab.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="SendFileButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1007, 448</value>
+  </data>
+  <data name="SendFileButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="SendFileButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 29</value>
+  </data>
+  <data name="SendFileButton.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="SendFileButton.Text" xml:space="preserve">
+    <value>Send File</value>
+  </data>
+  <data name="&gt;&gt;SendFileButton.Name" xml:space="preserve">
+    <value>SendFileButton</value>
+  </data>
+  <data name="&gt;&gt;SendFileButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SendFileButton.Parent" xml:space="preserve">
+    <value>ChatPage</value>
+  </data>
+  <data name="&gt;&gt;SendFileButton.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="LockSettingsChkBX.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LockSettingsChkBX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 120</value>
+  </data>
+  <data name="LockSettingsChkBX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 20</value>
+  </data>
+  <data name="LockSettingsChkBX.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="LockSettingsChkBX.Text" xml:space="preserve">
+    <value>Lock Settings</value>
+  </data>
+  <data name="&gt;&gt;LockSettingsChkBX.Name" xml:space="preserve">
+    <value>LockSettingsChkBX</value>
+  </data>
+  <data name="&gt;&gt;LockSettingsChkBX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LockSettingsChkBX.Parent" xml:space="preserve">
+    <value>SettingsPage</value>
+  </data>
+  <data name="&gt;&gt;LockSettingsChkBX.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="SettingsSaveButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 115</value>
+  </data>
+  <data name="SettingsSaveButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="SettingsSaveButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 29</value>
+  </data>
+  <data name="SettingsSaveButton.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="SettingsSaveButton.Text" xml:space="preserve">
+    <value>Save Settings</value>
+  </data>
+  <data name="&gt;&gt;SettingsSaveButton.Name" xml:space="preserve">
+    <value>SettingsSaveButton</value>
+  </data>
+  <data name="&gt;&gt;SettingsSaveButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SettingsSaveButton.Parent" xml:space="preserve">
+    <value>SettingsPage</value>
+  </data>
+  <data name="&gt;&gt;SettingsSaveButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 66</value>
+  </data>
+  <data name="label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>282, 16</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Groups: (seperate multipel groups with ';'</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>SettingsPage</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 14</value>
+  </data>
+  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 21</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>SettingsPage</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="SettingGroupTxtbx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 86</value>
+  </data>
+  <data name="SettingGroupTxtbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="SettingGroupTxtbx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>354, 23</value>
+  </data>
+  <data name="SettingGroupTxtbx.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;SettingGroupTxtbx.Name" xml:space="preserve">
+    <value>SettingGroupTxtbx</value>
+  </data>
+  <data name="&gt;&gt;SettingGroupTxtbx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SettingGroupTxtbx.Parent" xml:space="preserve">
+    <value>SettingsPage</value>
+  </data>
+  <data name="&gt;&gt;SettingGroupTxtbx.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="settingNameTxtbx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 38</value>
+  </data>
+  <data name="settingNameTxtbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="settingNameTxtbx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>354, 23</value>
+  </data>
+  <data name="settingNameTxtbx.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;settingNameTxtbx.Name" xml:space="preserve">
+    <value>settingNameTxtbx</value>
+  </data>
+  <data name="&gt;&gt;settingNameTxtbx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;settingNameTxtbx.Parent" xml:space="preserve">
+    <value>SettingsPage</value>
+  </data>
+  <data name="&gt;&gt;settingNameTxtbx.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <metadata name="openFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="saveFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>146, 12</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>96, 96</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1188, 595</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS Reference Sans Serif, 9.75pt</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>SecuChat</value>
+  </data>
+  <data name="&gt;&gt;OnOfflineImages.Name" xml:space="preserve">
+    <value>OnOfflineImages</value>
+  </data>
+  <data name="&gt;&gt;OnOfflineImages.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog1.Name" xml:space="preserve">
+    <value>openFileDialog1</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;saveFileDialog1.Name" xml:space="preserve">
+    <value>saveFileDialog1</value>
+  </data>
+  <data name="&gt;&gt;saveFileDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

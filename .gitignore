@@ -3,3 +3,12 @@
 ################################################################################
 
 /ChatApp/bin/x64/Debug
+/ChatApp/obj
+/Server/obj
+/SharedClasses/bin/x64/Debug
+/SharedClasses/obj
+/.vs/SecuChat/v15
+/.vs/ChatApp/v15/Server/sqlite3
+/.vs/ChatApp/v14
+/.vs/ChatApp/v15/sqlite3
+/.vs
