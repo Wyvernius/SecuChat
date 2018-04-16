@@ -121,246 +121,27 @@
   <data name="ChatTab.Appearance" type="System.Windows.Forms.TabAppearance, System.Windows.Forms">
     <value>FlatButtons</value>
   </data>
-  <data name="&gt;&gt;testbutton.Name" xml:space="preserve">
-    <value>testbutton</value>
-  </data>
-  <data name="&gt;&gt;testbutton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;testbutton.Parent" xml:space="preserve">
-    <value>ChatPage</value>
-  </data>
-  <data name="&gt;&gt;testbutton.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;ClientListview.Name" xml:space="preserve">
-    <value>ClientListview</value>
-  </data>
-  <data name="&gt;&gt;ClientListview.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TreeView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ClientListview.Parent" xml:space="preserve">
-    <value>ChatPage</value>
-  </data>
-  <data name="&gt;&gt;ClientListview.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;UserInputTxtBx.Name" xml:space="preserve">
-    <value>UserInputTxtBx</value>
-  </data>
-  <data name="&gt;&gt;UserInputTxtBx.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UserInputTxtBx.Parent" xml:space="preserve">
-    <value>ChatPage</value>
-  </data>
-  <data name="&gt;&gt;UserInputTxtBx.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;FileSendProgBar.Name" xml:space="preserve">
-    <value>FileSendProgBar</value>
-  </data>
-  <data name="&gt;&gt;FileSendProgBar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;FileSendProgBar.Parent" xml:space="preserve">
-    <value>ChatPage</value>
-  </data>
-  <data name="&gt;&gt;FileSendProgBar.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;ServerStatus.Name" xml:space="preserve">
-    <value>ServerStatus</value>
-  </data>
-  <data name="&gt;&gt;ServerStatus.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ServerStatus.Parent" xml:space="preserve">
-    <value>ChatPage</value>
-  </data>
-  <data name="&gt;&gt;ServerStatus.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;ChatbufferTab.Name" xml:space="preserve">
-    <value>ChatbufferTab</value>
-  </data>
-  <data name="&gt;&gt;ChatbufferTab.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ChatbufferTab.Parent" xml:space="preserve">
-    <value>ChatPage</value>
-  </data>
-  <data name="&gt;&gt;ChatbufferTab.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;SendFileButton.Name" xml:space="preserve">
-    <value>SendFileButton</value>
-  </data>
-  <data name="&gt;&gt;SendFileButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;SendFileButton.Parent" xml:space="preserve">
-    <value>ChatPage</value>
-  </data>
-  <data name="&gt;&gt;SendFileButton.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="ChatPage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 28</value>
+  <data name="ClientPictureBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 443</value>
   </data>
-  <data name="ChatPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 3, 4, 3</value>
-  </data>
-  <data name="ChatPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 3, 4, 3</value>
-  </data>
-  <data name="ChatPage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1180, 563</value>
+  <data name="ClientPictureBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 122</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="ChatPage.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="ClientPictureBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
-  <data name="ChatPage.Text" xml:space="preserve">
-    <value>Chat</value>
+  <data name="&gt;&gt;ClientPictureBox.Name" xml:space="preserve">
+    <value>ClientPictureBox</value>
   </data>
-  <data name="&gt;&gt;ChatPage.Name" xml:space="preserve">
+  <data name="&gt;&gt;ClientPictureBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ClientPictureBox.Parent" xml:space="preserve">
     <value>ChatPage</value>
   </data>
-  <data name="&gt;&gt;ChatPage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ChatPage.Parent" xml:space="preserve">
-    <value>ChatTab</value>
-  </data>
-  <data name="&gt;&gt;ChatPage.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;LockSettingsChkBX.Name" xml:space="preserve">
-    <value>LockSettingsChkBX</value>
-  </data>
-  <data name="&gt;&gt;LockSettingsChkBX.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LockSettingsChkBX.Parent" xml:space="preserve">
-    <value>SettingsPage</value>
-  </data>
-  <data name="&gt;&gt;LockSettingsChkBX.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;SettingsSaveButton.Name" xml:space="preserve">
-    <value>SettingsSaveButton</value>
-  </data>
-  <data name="&gt;&gt;SettingsSaveButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;SettingsSaveButton.Parent" xml:space="preserve">
-    <value>SettingsPage</value>
-  </data>
-  <data name="&gt;&gt;SettingsSaveButton.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;label2.Name" xml:space="preserve">
-    <value>label2</value>
-  </data>
-  <data name="&gt;&gt;label2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
-    <value>SettingsPage</value>
-  </data>
-  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
-  </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>SettingsPage</value>
-  </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;SettingGroupTxtbx.Name" xml:space="preserve">
-    <value>SettingGroupTxtbx</value>
-  </data>
-  <data name="&gt;&gt;SettingGroupTxtbx.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;SettingGroupTxtbx.Parent" xml:space="preserve">
-    <value>SettingsPage</value>
-  </data>
-  <data name="&gt;&gt;SettingGroupTxtbx.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;settingNameTxtbx.Name" xml:space="preserve">
-    <value>settingNameTxtbx</value>
-  </data>
-  <data name="&gt;&gt;settingNameTxtbx.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;settingNameTxtbx.Parent" xml:space="preserve">
-    <value>SettingsPage</value>
-  </data>
-  <data name="&gt;&gt;settingNameTxtbx.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="SettingsPage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 28</value>
-  </data>
-  <data name="SettingsPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 3, 4, 3</value>
-  </data>
-  <data name="SettingsPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 3, 4, 3</value>
-  </data>
-  <data name="SettingsPage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1180, 563</value>
-  </data>
-  <data name="SettingsPage.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="SettingsPage.Text" xml:space="preserve">
-    <value>Settings</value>
-  </data>
-  <data name="&gt;&gt;SettingsPage.Name" xml:space="preserve">
-    <value>SettingsPage</value>
-  </data>
-  <data name="&gt;&gt;SettingsPage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;SettingsPage.Parent" xml:space="preserve">
-    <value>ChatTab</value>
-  </data>
-  <data name="&gt;&gt;SettingsPage.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="ChatTab.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 2</value>
-  </data>
-  <data name="ChatTab.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 3, 4, 3</value>
-  </data>
-  <data name="ChatTab.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1188, 595</value>
-  </data>
-  <data name="ChatTab.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;ChatTab.Name" xml:space="preserve">
-    <value>ChatTab</value>
-  </data>
-  <data name="&gt;&gt;ChatTab.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ChatTab.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;ChatTab.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;ClientPictureBox.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="testbutton.Location" type="System.Drawing.Point, System.Drawing">
@@ -388,7 +169,7 @@
     <value>ChatPage</value>
   </data>
   <data name="&gt;&gt;testbutton.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="ClientListview.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
@@ -429,7 +210,7 @@
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAD+
-        DwAAAk1TRnQBSQFMAgEBBQEAARgBAQEYAQEBEAEAARABAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAFA
+        DwAAAk1TRnQBSQFMAgEBBQEAASABAQEgAQEBEAEAARABAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAFA
         AwABIAMAAQEBAAEgBgABIBIAQP/AAED/wABA/8AACP8D/gH/A48B/wHoAaIBAAH/A48B/wOPAf8DjwH/
         A48B/wOPAf8DjwH/A48B/wOlDf/AAAj/AegBogEAAf8B6AGiAQAB/wHoAaIBAAH/AegBogEAAf8B6AGi
         AQAB/wHoAaIBAAH/AegBogEAAf8B6AGiAQAB/wHoAaIBAAH/AegBogEAAf8B6AGiAQAN/8AACP8B6AGi
@@ -442,61 +223,61 @@
         AQAB/wHoAaIBAAH/AegBogEAAf8B6AGiAQAB/wHoAaIBAAH/AegBogEAAf8D2w3/wAAI/wHoAaIBAAH/
         AegBogEAAf8B6AGiAQAB/wHoAaIBAAH/AegBogEAAf8B6AGiAQAB/wHoAaIBAAH/AegBogEAAf8B6AGi
         AQAF/wHoAaIBAAH/AegBogEAAf8B6AGiAQAF/8AADP8DuwH/A7sB/wO7Af8DuwH/A7sB/wO7Af8DuwH/
-        A7sB/wF0AVEBAAn/AegBogEABf/AADD/AegBogEAAf8B6AGiAQAB/wHoAaIBAAX/wABA/8AAQP/AAED/
-        wACA/wPjAf4W/wH+Af8B/QP/Af4E/wH+A/8B/gT/Af4t/wH9Af8B/gH/Af0F/wH+mf8D4wH+FP8BnAGd
-        AcwB/wH8AfoB/gL/Af4D/wH+Av8BQAFBAZ0y/wH+A/8B/p7/A+MB/hD/Af0B/wH+Af8CAAFxAf8B+QH7
-        Af4F/wH+A/8CAAGAAf8B5wHoAfgp/wH6Af8B+wH/AT0BpAE8Af8BOAGTATYB/wH1Af8B9jH/AZQBzAFb
-        Af8B8gH4Ae85/wFcAVgB7QH/Ae8B7gH8If8D4wH+DP8B/gP/AgABZgH/AgABcQH/Ar8B3wH/AsIB3gH/
-        Af0D/wIAAXEB/wIAAYAC/wH+Iv8B/QH/Af0B/wEAAXEBAAH/AQABgwEAAf8BAAFrAQAB/wEAAXEBAAH/
-        AeEB+QHhKf8B+gH7AfkB/wEtAbEBBQH/AUwBvgErAf8B8gH3AfAx/wL5AfwB/wEGAQAB7AH/ASwBJgHt
-        Af8B8AHvAfsd/wPjAf4O/wH+Af8CAAGAAf8CAAFwAf8CAAFxAf8CAAFwAv8B/gL/AgABgAH/AgABgAL/
-        Af4i/wEAAXEBAAH/AQABgQEAAf8BAAGAAQAB/wEAAXABAAH/AQABgAEAAf8BAAGAAQAB/wH+H/8B+wH8
-        AfoB/wHBAeIBtAH/AZwB0QGFAf8BKgGxAQAB/wEqAbEBAAH/AUkBvAEnAf8BsgHcAaAB/wG2Ad8BpQH/
-        AbYB3wGlAf8BuAHeAagB/wHrAfQB5xX/AvoB/QH/AbUBsgH1Af8BhgGCAfEB/wECAQAB7QH/AQIBAAHt
-        Af8BKAEiAewB/wGhAZ4B9QH/AaUBogH3Af8BpQGiAfcB/wGpAaYB9QH/AecB5gH6Cf8D4wH+Df8B/gL/
-        AgABgAH/AgABgAH/AfsB+gH+Bf8B/QP/AgABgAH/AgABcQP/Af0O/wH+BP8B/gP/Af4B/wH+Af8B/gL/
-        Af4C/wEAAYEBAAH/AQABgAEAAf8BAAGCAQAB/wEAAWwBAAH/AQABgAEAAf8BAAGAAQAB/wH4Af8B+QP/
-        Af4D/wH+A/8B/gP/Af4N/wGUAc0BWgH/ASoBsQEAAf8BKgGxAQAB/wEqAbEBAAH/ASoBsQEAAf8BKgGx
-        AQAB/wEqAbEBAAH/ASoBsQEAAf8BKgGxAQAB/wEqAbEBAAH/AToBtgEVAf8B9wH6AfUR/wFbAVYB7wH/
-        AQIBAAHtAf8BAgEAAe0B/wECAQAB7QH/AQIBAAHtAf8BAgEAAe0B/wECAQAB7QH/AQIBAAHtAf8BAgEA
-        Ae0B/wECAQAB7QH/ARcBEAHrAf8C9QH8Bf8D4wH+BP8CvQHqAf8BvgG9AeoB/wK9AeoB/wIAAYAB/wIA
+        A7sB/wFzAVABAAn/AegBogEABf/AADD/AegBogEAAf8B6AGiAQAB/wHoAaIBAAX/wABA/8AAQP/AAED/
+        wACA/wPhAf4W/wH+Af8B/QP/Af4E/wH+A/8B/gT/Af4t/wH9Af8B/gH/Af0F/wH+mf8D4QH+FP8BnAGd
+        AcwB/wH8AfoB/gL/Af4D/wH+Av8BPwFAAZ0y/wH+A/8B/p7/A+EB/hD/Af0B/wH+Af8CAAFwAf8B+QH7
+        Af4F/wH+A/8CAAGAAf8B5wHoAfgp/wH6Af8B+wH/ATwBpAE7Af8BNwGTATUB/wH1Af8B9jH/AZQBzAFa
+        Af8B8gH4Ae85/wFbAVcB7QH/Ae8B7gH8If8D4QH+DP8B/gP/AgABZQH/AgABcAH/Ar8B3wH/AsIB3gH/
+        Af0D/wIAAXAB/wIAAYAC/wH+Iv8B/QH/Af0B/wEAAXABAAH/AQABgwEAAf8BAAFqAQAB/wEAAXABAAH/
+        AeEB+QHhKf8B+gH7AfkB/wEsAbEBBAH/AUsBvgEqAf8B8gH3AfAx/wL5AfwB/wEFAQAB7AH/ASsBJQHt
+        Af8B8AHvAfsd/wPhAf4O/wH+Af8CAAGAAf8CAAFvAf8CAAFwAf8CAAFvAv8B/gL/AgABgAH/AgABgAL/
+        Af4i/wEAAXABAAH/AQABgQEAAf8BAAGAAQAB/wEAAW8BAAH/AQABgAEAAf8BAAGAAQAB/wH+H/8B+wH8
+        AfoB/wHBAeIBtAH/AZwB0QGFAf8BKQGxAQAB/wEpAbEBAAH/AUgBvAEmAf8BsgHcAaAB/wG2Ad8BpQH/
+        AbYB3wGlAf8BuAHeAagB/wHrAfQB5xX/AvoB/QH/AbUBsgH1Af8BhgGCAfEB/wEBAQAB7QH/AQEBAAHt
+        Af8BJwEhAewB/wGhAZ4B9QH/AaUBogH3Af8BpQGiAfcB/wGpAaYB9QH/AecB5gH6Cf8D4QH+Df8B/gL/
+        AgABgAH/AgABgAH/AfsB+gH+Bf8B/QP/AgABgAH/AgABcAP/Af0O/wH+BP8B/gP/Af4B/wH+Af8B/gL/
+        Af4C/wEAAYEBAAH/AQABgAEAAf8BAAGCAQAB/wEAAWsBAAH/AQABgAEAAf8BAAGAAQAB/wH4Af8B+QP/
+        Af4D/wH+A/8B/gP/Af4N/wGUAc0BWQH/ASkBsQEAAf8BKQGxAQAB/wEpAbEBAAH/ASkBsQEAAf8BKQGx
+        AQAB/wEpAbEBAAH/ASkBsQEAAf8BKQGxAQAB/wEpAbEBAAH/ATkBtgEUAf8B9wH6AfUR/wFaAVUB7wH/
+        AQEBAAHtAf8BAQEAAe0B/wEBAQAB7QH/AQEBAAHtAf8BAQEAAe0B/wEBAQAB7QH/AQEBAAHtAf8BAQEA
+        Ae0B/wEBAQAB7QH/ARYBDwHrAf8C9QH8Bf8D4QH+BP8CvQHqAf8BvgG9AeoB/wK9AeoB/wIAAYAB/wIA
         AYAB/wH7AfoB/gX/Af0D/wIAAYAB/wIAAYAB/wG9AbwB6gH/Ab4BvQHqAf8BvgG9AeoB/wG+Ab0B6gX/
-        Af4B/QH+Af8B/gH9Af4B/wH+Af0B/gH/AfsB/QH7Af8BAAGAAQAB/wEAAYEBAAH/AQABggEAAf8BAAFr
-        AQAB/wEAAYABAAH/AQABgAEAAf8BWgGjAVkB/wH+Af0B/gH/Af4B/QH+Af8B/gH9Af4B/wH+Af0B/g3/
-        AUkBvAEnAf8BKgGxAQAB/wEqAbEBAAH/ASoBsQEAAf8BKgGxAQAB/wEqAbEBAAH/ASoBsQEAAf8BKgGx
-        AQAB/wEqAbEBAAH/ASoBsQEAAf8BKgGxAQAB/wHaAewB0hH/ASkBIgHtAf8BAgEAAe0B/wECAQAB7QH/
-        AQIBAAHtAf8BAgEAAe0B/wECAQAB7QH/AQIBAAHtAf8BAgEAAe0B/wECAQAB7QH/AQIBAAHtAf8BAgEA
-        Ae0B/wHSAdEB9wX/A+MB/gT/AgABawH/AgABbAH/AgABbAH/AgABgAH/AgABgAH/AfsB+gH+Bf8B/QP/
-        AgABgAH/AgABgAH/AgABbAH/AgABbAH/AgABbAH/AgABbAP/Af4B/wEAAYEBAAH/AQABgQEAAf8BAAGC
-        AQAB/wEAAYEBAAH/AQABgQEAAf8BAAGAAQAB/wEAAYIBAAH/AQABawEAAf8BAAGAAQAB/wEAAYABAAH/
-        AQABgQEAAf8BAAGBAQAB/wEAAYEBAAH/AQABgQEAAf8BAAGCAQAN/wFIAbwBJgH/ATgBtgESAf8BmQHQ
-        AYIB/wEtAbEBBAH/ASoBsQEAAf8BRgG6ASMB/wEqAbEBAAH/ASoBsQEAAf8BWgHEAT0B/wFXAcIBOQH/
-        ASoBsQEAAf8B2QHsAdER/wEoASEB7QH/ARQBDQHsAf8BgwFcAfEB/wEGAQAB7AH/AQIBAAHtAf8BJQEe
-        AesB/wECAQAB7QH/AQIBAAHtAf8BPgE5Ae4B/wE6ATQB7gH/AQIBAAHtAf8B0QHQAfcF/wPjAf4M/wH9
+        Af4B/QH+Af8B/gH9Af4B/wH+Af0B/gH/AfsB/QH7Af8BAAGAAQAB/wEAAYEBAAH/AQABggEAAf8BAAFq
+        AQAB/wEAAYABAAH/AQABgAEAAf8BWQGjAVgB/wH+Af0B/gH/Af4B/QH+Af8B/gH9Af4B/wH+Af0B/g3/
+        AUgBvAEmAf8BKQGxAQAB/wEpAbEBAAH/ASkBsQEAAf8BKQGxAQAB/wEpAbEBAAH/ASkBsQEAAf8BKQGx
+        AQAB/wEpAbEBAAH/ASkBsQEAAf8BKQGxAQAB/wHaAewB0hH/ASgBIQHtAf8BAQEAAe0B/wEBAQAB7QH/
+        AQEBAAHtAf8BAQEAAe0B/wEBAQAB7QH/AQEBAAHtAf8BAQEAAe0B/wEBAQAB7QH/AQEBAAHtAf8BAQEA
+        Ae0B/wHSAdEB9wX/A+EB/gT/AgABagH/AgABawH/AgABawH/AgABgAH/AgABgAH/AfsB+gH+Bf8B/QP/
+        AgABgAH/AgABgAH/AgABawH/AgABawH/AgABawH/AgABawP/Af4B/wEAAYEBAAH/AQABgQEAAf8BAAGC
+        AQAB/wEAAYEBAAH/AQABgQEAAf8BAAGAAQAB/wEAAYIBAAH/AQABagEAAf8BAAGAAQAB/wEAAYABAAH/
+        AQABgQEAAf8BAAGBAQAB/wEAAYEBAAH/AQABgQEAAf8BAAGCAQAN/wFHAbwBJQH/ATcBtgERAf8BmQHQ
+        AYIB/wEsAbEBAwH/ASkBsQEAAf8BRQG6ASIB/wEpAbEBAAH/ASkBsQEAAf8BWQHEATwB/wFWAcIBOAH/
+        ASkBsQEAAf8B2QHsAdER/wEnASAB7QH/ARMBDAHsAf8BgwFbAfEB/wEFAQAB7AH/AQEBAAHtAf8BJAEd
+        AesB/wEBAQAB7QH/AQEBAAHtAf8BPQE4Ae4B/wE5ATMB7gH/AQEBAAHtAf8B0QHQAfcF/wPhAf4M/wH9
         A/8CAAGAAf8CAAGAAf8B+gH5Af4G/wH+Av8CAAGAAf8CAAGAAf8C/gH8Hf8C/QH+Af8BAAGAAQAB/wEA
-        AYEBAAH/AQABgwEAAf8BAAFqAQAB/wEAAYABAAH/AQABgQEAAf8BlAHDAZUd/wFIAbwBJgH/AYUBxwFH
-        Af8C/QH8Af8BQQG4AR4B/wEuAbEBBQH/AdcB6gHOAf8BLAGxAQQB/wEqAbEBAAH/AdAB5wHGAf8ByQHl
-        Ab4B/wEqAbEBAAH/AdkB7AHREf8BKAEhAe0B/wFJAUMB7gH/AvwB/gH/ASABGQHrAf8BBwEAAesB/wHP
-        Ac0B9gH/AQUBAAHrAf8BAgEAAe0B/wHHAcUB9QH/Ab4BvAH1Af8BAgEAAe0B/wHRAdAB9wX/A+MB/hD/
-        AgABcQH/AgABgAH/AdsB3AHyAf8B3gHdAfEB/wH9A/8CAAGAAf8CAAGAAf8B/Rz/Af4G/wEAAXEBAAH/
-        AQABgAEAAf8BAAGAAQAB/wEAAXEBAAH/AQABgAEAAf8BAAGAAQAB/wL+Af0d/wFIAbwBJgH/ASoBsQEA
-        Af8BNgG0AQ8B/wEqAbEBAAH/ASoBsQEAAf8BKgGxAQAB/wEqAbEBAAH/ASoBsQEAAf8BMAGzAQgB/wEv
-        AbIBBwH/ASoBsQEAAf8B2QHsAdER/wEoASEB7QH/AQIBAAHtAf8BEQEKAesB/wECAQAB7QH/AQIBAAHt
-        Af8BAgEAAe0B/wECAQAB7QH/AQIBAAHtAf8BCgECAewB/wEJAQEB7AH/AQIBAAHtAf8B0QHQAfcF/wPj
-        Af4Q/wIAAXEB/wIAAYAB/wIAAW4B/wIAAW0B/wH9Af4C/wIAAYAB/wIAAXED/wH+If8BCQFwAQkB/wEA
-        AYABAAH/AQABgQEAAf8BAAFsAQAB/wEAAYABAAH/AQABcQEAAf8D/h3/AU4BvgEtAf8BKgGxAQAB/wEq
-        AbEBAAH/ASoBsQEAAf8BKgGxAQAB/wEqAbEBAAH/ASoBsQEAAf8BKgGxAQAB/wEqAbEBAAH/ASoBsQEA
-        Af8BKgGxAQAB/wHfAe8B2BH/AS8BKAHtAf8BAgEAAe0B/wECAQAB7QH/AQIBAAHtAf8BAgEAAe0B/wEC
-        AQAB7QH/AQIBAAHtAf8BAgEAAe0B/wECAQAB7QH/AQIBAAHtAf8BAgEAAe0B/wHYAdcB+AX/A+MB/hD/
-        AdQB1QHvAf8CAAGAAf8B+gH7Af4D/wH+Af8B/QP/AgABgAH/AQkBDAFrJf8B/gP/AQABgAEAAf8BAAGD
-        AQAB/wEAAWoBAAH/AQABgQEABf8B/h//Ab8B4AGyAf8BMQGyAQkB/wEqAbEBAAH/ASoBsQEAAf8BKgGx
-        AQAB/wEqAbEBAAH/ASoBsQEAAf8BKgGxAQAB/wEqAbEBAAH/ASoBsQEAAf8BhgHGAUkB/wP+Ef8BsgGw
-        AfQB/wELAQMB6wH/AQIBAAHtAf8BAgEAAe0B/wECAQAB7QH/AQIBAAHtAf8BAgEAAe0B/wECAQAB7QH/
-        AQIBAAHtAf8BAgEAAewB/wFKAUUB7QH/A/4F/wPjAf4Q/wH+A/8CAAFvAf8B+wH6Af4J/wIAAYEu/wH+
+        AYEBAAH/AQABgwEAAf8BAAFpAQAB/wEAAYABAAH/AQABgQEAAf8BlAHDAZUd/wFHAbwBJQH/AYUBxwFG
+        Af8C/QH8Af8BQAG4AR0B/wEtAbEBBAH/AdcB6gHOAf8BKwGxAQMB/wEpAbEBAAH/AdAB5wHGAf8ByQHl
+        Ab4B/wEpAbEBAAH/AdkB7AHREf8BJwEgAe0B/wFIAUIB7gH/AvwB/gH/AR8BGAHrAf8BBgEAAesB/wHP
+        Ac0B9gH/AQQBAAHrAf8BAQEAAe0B/wHHAcUB9QH/Ab4BvAH1Af8BAQEAAe0B/wHRAdAB9wX/A+EB/hD/
+        AgABcAH/AgABgAH/AdsB3AHyAf8B3gHdAfEB/wH9A/8CAAGAAf8CAAGAAf8B/Rz/Af4G/wEAAXABAAH/
+        AQABgAEAAf8BAAGAAQAB/wEAAXABAAH/AQABgAEAAf8BAAGAAQAB/wL+Af0d/wFHAbwBJQH/ASkBsQEA
+        Af8BNQG0AQ4B/wEpAbEBAAH/ASkBsQEAAf8BKQGxAQAB/wEpAbEBAAH/ASkBsQEAAf8BLwGzAQcB/wEu
+        AbIBBgH/ASkBsQEAAf8B2QHsAdER/wEnASAB7QH/AQEBAAHtAf8BEAEJAesB/wEBAQAB7QH/AQEBAAHt
+        Af8BAQEAAe0B/wEBAQAB7QH/AQEBAAHtAf8BCQEBAewB/wEIAQAB7AH/AQEBAAHtAf8B0QHQAfcF/wPh
+        Af4Q/wIAAXAB/wIAAYAB/wIAAW0B/wIAAWwB/wH9Af4C/wIAAYAB/wIAAXAD/wH+If8BCAFvAQgB/wEA
+        AYABAAH/AQABgQEAAf8BAAFrAQAB/wEAAYABAAH/AQABcAEAAf8D/h3/AU0BvgEsAf8BKQGxAQAB/wEp
+        AbEBAAH/ASkBsQEAAf8BKQGxAQAB/wEpAbEBAAH/ASkBsQEAAf8BKQGxAQAB/wEpAbEBAAH/ASkBsQEA
+        Af8BKQGxAQAB/wHfAe8B2BH/AS4BJwHtAf8BAQEAAe0B/wEBAQAB7QH/AQEBAAHtAf8BAQEAAe0B/wEB
+        AQAB7QH/AQEBAAHtAf8BAQEAAe0B/wEBAQAB7QH/AQEBAAHtAf8BAQEAAe0B/wHYAdcB+AX/A+EB/hD/
+        AdQB1QHvAf8CAAGAAf8B+gH7Af4D/wH+Af8B/QP/AgABgAH/AQgBCwFqJf8B/gP/AQABgAEAAf8BAAGD
+        AQAB/wEAAWkBAAH/AQABgQEABf8B/h//Ab8B4AGyAf8BMAGyAQgB/wEpAbEBAAH/ASkBsQEAAf8BKQGx
+        AQAB/wEpAbEBAAH/ASkBsQEAAf8BKQGxAQAB/wEpAbEBAAH/ASkBsQEAAf8BhgHGAUgB/wP+Ef8BsgGw
+        AfQB/wEKAQIB6wH/AQEBAAHtAf8BAQEAAe0B/wEBAQAB7QH/AQEBAAHtAf8BAQEAAe0B/wEBAQAB7QH/
+        AQEBAAHtAf8BAQEAAewB/wFJAUQB7QH/A/4F/wPhAf4Q/wH+A/8CAAFuAf8B+wH6Af4J/wIAAYEu/wH+
         Av8B9AH/AfMB/wHyAf8B8wH/Av4q/wH8Af0B/AH/AfYB+QH1Af8B9gH5AfUB/wH2AfkB9QH/AfYB+QH1
         Af8B9gH5AfUB/wH2AfkB9QH/AfYB+QH1Af8B+QH7Afgd/wL8Af0B/wL1AfsB/wL1AfsB/wL1AfsB/wL1
-        AfsB/wL1AfsB/wL1AfsB/wL1AfsB/wL4AfwN/wPjAf4O/wH+B/8B/QH/Af4B/Qv/Af43/wL+A/8B/gf/
-        Af6R/wPjAf4Q/wH+A/8B/QP/Af4B/wH9Av8B/t7/A+MB/nz/AUIBTQE+BwABPgMAASgDAAFAAwABIAMA
+        AfsB/wL1AfsB/wL1AfsB/wL1AfsB/wL4AfwN/wPhAf4O/wH+B/8B/QH/Af4B/Qv/Af43/wL+A/8B/gf/
+        Af6R/wPhAf4Q/wH+A/8B/QP/Af4B/wH9Av8B/t7/A+EB/nz/AUIBTQE+BwABPgMAASgDAAFAAwABIAMA
         AQEBAAEBBgABARYAA///AAIACw==
 </value>
   </data>
@@ -513,7 +294,7 @@
     <value>ChatPage</value>
   </data>
   <data name="&gt;&gt;ClientListview.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="UserInputTxtBx.Location" type="System.Drawing.Point, System.Drawing">
     <value>188, 443</value>
@@ -540,7 +321,7 @@
     <value>ChatPage</value>
   </data>
   <data name="&gt;&gt;UserInputTxtBx.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="FileSendProgBar.Location" type="System.Drawing.Point, System.Drawing">
     <value>1006, 483</value>
@@ -567,7 +348,7 @@
     <value>ChatPage</value>
   </data>
   <data name="&gt;&gt;FileSendProgBar.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="ServerStatus.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -603,7 +384,7 @@
     <value>ChatPage</value>
   </data>
   <data name="&gt;&gt;ServerStatus.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="ChatbufferTab.Font" type="System.Drawing.Font, System.Drawing">
     <value>MS Reference Sans Serif, 9.75pt</value>
@@ -627,7 +408,7 @@
     <value>ChatPage</value>
   </data>
   <data name="&gt;&gt;ChatbufferTab.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="SendFileButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>1007, 448</value>
@@ -654,7 +435,37 @@
     <value>ChatPage</value>
   </data>
   <data name="&gt;&gt;SendFileButton.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
+  </data>
+  <data name="ChatPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 28</value>
+  </data>
+  <data name="ChatPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="ChatPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="ChatPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1180, 563</value>
+  </data>
+  <data name="ChatPage.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ChatPage.Text" xml:space="preserve">
+    <value>Chat</value>
+  </data>
+  <data name="&gt;&gt;ChatPage.Name" xml:space="preserve">
+    <value>ChatPage</value>
+  </data>
+  <data name="&gt;&gt;ChatPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ChatPage.Parent" xml:space="preserve">
+    <value>ChatTab</value>
+  </data>
+  <data name="&gt;&gt;ChatPage.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="LockSettingsChkBX.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -817,6 +628,60 @@
   </data>
   <data name="&gt;&gt;settingNameTxtbx.ZOrder" xml:space="preserve">
     <value>5</value>
+  </data>
+  <data name="SettingsPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 28</value>
+  </data>
+  <data name="SettingsPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="SettingsPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="SettingsPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1180, 563</value>
+  </data>
+  <data name="SettingsPage.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="SettingsPage.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="&gt;&gt;SettingsPage.Name" xml:space="preserve">
+    <value>SettingsPage</value>
+  </data>
+  <data name="&gt;&gt;SettingsPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SettingsPage.Parent" xml:space="preserve">
+    <value>ChatTab</value>
+  </data>
+  <data name="&gt;&gt;SettingsPage.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ChatTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 2</value>
+  </data>
+  <data name="ChatTab.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="ChatTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1188, 595</value>
+  </data>
+  <data name="ChatTab.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ChatTab.Name" xml:space="preserve">
+    <value>ChatTab</value>
+  </data>
+  <data name="&gt;&gt;ChatTab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ChatTab.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ChatTab.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <metadata name="openFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>

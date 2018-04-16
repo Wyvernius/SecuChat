@@ -44,9 +44,11 @@ namespace SecuChat
             this.settingNameTxtbx = new System.Windows.Forms.TextBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
+            this.ClientPictureBox = new System.Windows.Forms.PictureBox();
             this.ChatTab.SuspendLayout();
             this.ChatPage.SuspendLayout();
             this.SettingsPage.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ClientPictureBox)).BeginInit();
             this.SuspendLayout();
             // 
             // ChatTab
@@ -60,6 +62,7 @@ namespace SecuChat
             // ChatPage
             // 
             this.ChatPage.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.ChatPage.Controls.Add(this.ClientPictureBox);
             this.ChatPage.Controls.Add(this.testbutton);
             this.ChatPage.Controls.Add(this.ClientListview);
             this.ChatPage.Controls.Add(this.UserInputTxtBx);
@@ -190,6 +193,12 @@ namespace SecuChat
             this.settingNameTxtbx.Name = "settingNameTxtbx";
             this.settingNameTxtbx.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.settingTxtbx_KeyPress);
             // 
+            // ClientPictureBox
+            // 
+            resources.ApplyResources(this.ClientPictureBox, "ClientPictureBox");
+            this.ClientPictureBox.Name = "ClientPictureBox";
+            this.ClientPictureBox.TabStop = false;
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
@@ -208,6 +217,7 @@ namespace SecuChat
             this.ChatPage.PerformLayout();
             this.SettingsPage.ResumeLayout(false);
             this.SettingsPage.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ClientPictureBox)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -231,6 +241,7 @@ namespace SecuChat
         private Button testbutton;
         private TreeView ClientListview;
         private CheckBox LockSettingsChkBX;
+        private PictureBox ClientPictureBox;
     }
 }
 

@@ -79,6 +79,7 @@ namespace SecuChat
             ActiveWindow = new ChatBufferID();
 
             ThreadPool.QueueUserWorkItem(recvMessages);
+            ThreadPool.QueueUserWorkItem(CheckIfLogoAvailable);
         }
 
         private object Lock = new object();
@@ -692,6 +693,51 @@ namespace SecuChat
             }
         }
         #endregion
+
+
+        private void CheckIfLogoAvailable(object sender)
+        {
+            while(!GlobalQuit)
+            {
+                if (ClientPictureBox.Image == null)
+                {
+                    Socket LogoSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+                    LogoSocket.Connect(RemoteEndPoint);
+                    if (LogoSocket.Connected)
+                    {
+                        nBuffer buffer = new nBuffer();
+                        buffer.AddID(MsgType.ClientConnect);
+                        ClientConnect CC = new ClientConnect();
+                        CC.Ip = ComConstants.Ip;
+                        CC.sockettype = ConnectionType.Logo;
+                        CC.Salt = Salt;
+                        buffer.AddObject(CC);
+                        buffer.SendBuffer(LogoSocket);
+                        buffer.innerbuffer.Clear();
+                        Thread.Sleep(1000);
+                        buffer.AddID(MsgType.RequestLogo);
+                        buffer.SendCryptoBuffer(LogoSocket, Salt);
+                        buffer.innerbuffer.Clear();
+
+                        buffer.ReceiveCryptoBuffer(LogoSocket, Salt);
+                        if (buffer.GetID() == MsgType.NoLogo)
+                        {
+                            Console.WriteLine("No Logo on server!");
+                        }
+                        if (buffer.GetID() == MsgType.Logo)
+                        {
+                            ClientPictureBox.Image = buffer.GetObject<Bitmap>();
+                            LogoSocket.Shutdown(SocketShutdown.Both);
+                            LogoSocket.Close(5);
+                            break;
+                        }
+                        LogoSocket.Shutdown(SocketShutdown.Both);
+                        LogoSocket.Close(5);
+                    }
+                }
+                Thread.Sleep(5000);
+            }
+        }
 
         private void SendFile(object sender)
         {

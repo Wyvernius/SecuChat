@@ -125,11 +125,18 @@ namespace SharedClasses
         public bool complete;
     }
 
+    [Serializable]
+    public class LogoData
+    {
+        public byte[] Data;
+    }
+
     #endregion
 
     #region Enums
     public enum ConnectionType
     {
+        Logo = 5000,
         File = 5001,
         Client = 5002,
     }
@@ -155,6 +162,9 @@ namespace SharedClasses
         SendOK = 4010,
         SendCansel = 4011,
         ServerTest = 4012,
+        RequestLogo = 4013,
+        Logo = 4014,
+        NoLogo = 4015,
         None = 0,
     }
 

@@ -42,8 +42,10 @@
             this.Group = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Public = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.ServerTestButton = new System.Windows.Forms.Button();
+            this.ServerPictureBox = new System.Windows.Forms.PictureBox();
             this.ServerNotifyMenuStrip.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ServerPictureBox)).BeginInit();
             this.SuspendLayout();
             // 
             // ServerNotifyMenuStrip
@@ -157,11 +159,24 @@
             this.ServerTestButton.UseVisualStyleBackColor = true;
             this.ServerTestButton.Click += new System.EventHandler(this.ServerTestButton_Click);
             // 
+            // ServerPictureBox
+            // 
+            this.ServerPictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.ServerPictureBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ServerPictureBox.Location = new System.Drawing.Point(525, 9);
+            this.ServerPictureBox.Name = "ServerPictureBox";
+            this.ServerPictureBox.Size = new System.Drawing.Size(189, 122);
+            this.ServerPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.ServerPictureBox.TabIndex = 9;
+            this.ServerPictureBox.TabStop = false;
+            this.ServerPictureBox.Click += new System.EventHandler(this.ServerPictureBox_Click);
+            // 
             // ServerIcon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(716, 463);
+            this.Controls.Add(this.ServerPictureBox);
             this.Controls.Add(this.ServerTestButton);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.PublicGroupChkBx);
@@ -179,6 +194,7 @@
             this.Load += new System.EventHandler(this.ServerIcon_Load);
             this.ServerNotifyMenuStrip.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ServerPictureBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -198,5 +214,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Group;
         private System.Windows.Forms.DataGridViewCheckBoxColumn Public;
         private System.Windows.Forms.Button ServerTestButton;
+        private System.Windows.Forms.PictureBox ServerPictureBox;
     }
 }

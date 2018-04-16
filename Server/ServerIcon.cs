@@ -7,6 +7,7 @@ using System.Net;
 using System.IO;
 using System.Threading;
 using SharedClasses;
+using System.Drawing;
 
 namespace Server
 {
@@ -114,6 +115,8 @@ namespace Server
                         client.CC.sockettype = CC.sockettype;
                         client.CC.Ip = CC.Ip;
                         client.CC.Salt = CC.Salt;
+
+                        // Only add to clientlist if NOT FileSocket or LogoSocket
                         client.Online = false;
                         for (int i = 0; i < ConnectedClients.Count; i++)
                         {
@@ -400,6 +403,25 @@ namespace Server
                             }
                         }
                         #endregion
+                        #region Reguest Logo
+                        if (buffer.GetID() == MsgType.RequestLogo)
+                        {
+                            if (Logo == null)
+                            {
+                                buffer.innerbuffer.Clear();
+                                buffer.AddID(MsgType.NoLogo);
+                                buffer.SendCryptoBuffer(client.socket, client.CC.Salt);
+                            }
+                            else
+                            {
+                                buffer.innerbuffer.Clear();
+                                buffer.AddID(MsgType.Logo);
+
+                                buffer.AddObject(Logo);
+                                buffer.SendCryptoBuffer(client.socket, client.CC.Salt);
+                            }
+                        }
+                        #endregion
                     }
                     else 
                     {
@@ -407,12 +429,12 @@ namespace Server
                         {
                             if (ConnectedClients[i].socket == client.socket)
                             {
-                                if (client.CC.Ip == ConnectedClients[i].CC.Ip && client.CC.sockettype == ConnectionType.File) // or delete if FileSocket.
+                                if (client.CC.Ip == ConnectedClients[i].CC.Ip && client.CC.sockettype != ConnectionType.Client) // or delete if FileSocket.
                                 {
                                     ConnectedClients[i].socket.Shutdown(SocketShutdown.Both);
                                     ConnectedClients[i].socket.Close(1);
                                     ConnectedClients.RemoveAt(i);
-                                    Console.WriteLine("FileSocket Disconnected!");
+                                    Console.WriteLine("Socket of Type {0} Disconnected!",client.CC.sockettype);
                                     bRecvMessage = false;
                                     return;
                                 }
@@ -422,13 +444,8 @@ namespace Server
                                 client.socket = null;
                                 client.Online = false;
                                 bRecvMessage = false;
-                                /*
-                                ConnectedClients[i].socket = null;
-                                ConnectedClients[i].Online = false;
-                                index = i;
-                                bRecvMessage = false;
-                                */
-                                Console.WriteLine("Client {0} Disconnected!", client.CC.Ip);
+
+                                Console.WriteLine("Client {0} of Type {1} Disconnected!", client.CC.Ip,client.CC.sockettype);
                                 UpdateClientList();
                                 return;
                             }
@@ -640,6 +657,18 @@ namespace Server
                     Thread.Sleep(250);
                 }
                 Console.WriteLine("Test Send to clients");
+            }
+        }
+
+        public static Bitmap Logo = null;
+        private void ServerPictureBox_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog fileDialog = new OpenFileDialog();
+            fileDialog.Title = "Select Picture";
+            if (fileDialog.ShowDialog() == DialogResult.OK)
+            {
+                ServerPictureBox.ImageLocation = fileDialog.FileName;
+                Logo = new Bitmap(fileDialog.FileName);
             }
         }
     }
