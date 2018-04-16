@@ -7,6 +7,7 @@ Usable as backoffice application during events.<br>
 Client Options:<br>
 Input Name<br>
 Input mulitple groups<br>
+![Alt text](https://github.com/Wyvernius/SecuChat/blob/master/SecuChatClientSettings.bmp?raw=true "Title")
 <br>
 Server Options:<br>
 Upload image of the company logo<br>
